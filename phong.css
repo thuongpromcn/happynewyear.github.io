@@ -72,6 +72,13 @@ body {
   opacity: 0;
   animation: message 2s ease-in-out 6s forwards;
 }
+/* Media query cho màn hình nhỏ hơn */
+@media screen and (max-width: 600px) {
+  .msg {
+    font-size: 50px; /* Điều chỉnh kích thước phông chữ cho màn hình nhỏ hơn */
+  }
+  /* Thêm điều chỉnh khác cho các phần tử khác nếu cần */
+}
 
 @keyframes message {
   0% {
@@ -139,7 +146,7 @@ body {
   position: absolute;
   top: 0%;
   animation: old_animation 2.5s ease-in-out 4s forwards;
-  margin-left: -50px;
+  margin-left: -80px;
 }
 
 @keyframes old_animation {
