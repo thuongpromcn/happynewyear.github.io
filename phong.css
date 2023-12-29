@@ -76,8 +76,20 @@ body {
 @media screen and (max-width: 600px) {
   .msg {
     font-size: 50px; /* Điều chỉnh kích thước phông chữ cho màn hình nhỏ hơn */
+    margin-top: -50px; /* Điều chỉnh vị trí top của .msg */
   }
-  /* Thêm điều chỉnh khác cho các phần tử khác nếu cần */
+
+  .year {
+    top: 250px; /* Điều chỉnh vị trí top của .year */
+  }
+
+  .y1, .y2, .y3, .y4, .old, .new {
+    font-size: 50px; /* Điều chỉnh kích thước phông chữ cho màn hình nhỏ hơn */
+  }
+
+  .first_year {
+    margin-right: 20px; /* Điều chỉnh khoảng cách giữa các chữ số trong năm */
+  }
 }
 
 @keyframes message {
