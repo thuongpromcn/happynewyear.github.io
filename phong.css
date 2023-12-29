@@ -139,7 +139,7 @@ body {
   position: absolute;
   top: 0%;
   animation: old_animation 2.5s ease-in-out 4s forwards;
-  margin-left: -80px;
+  margin-left: -50px;
 }
 
 @keyframes old_animation {
